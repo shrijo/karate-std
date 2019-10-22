@@ -1,5 +1,8 @@
 import React from 'react';
 import Swiper from 'react-id-swiper'
+import ProjectTeaser from './ProjectTeaser'
+
+import HorizontalSliderStyles from './HorizontalSlider.module.css'
 
 
 const HorizontalSlider = () => {
@@ -18,8 +21,8 @@ const HorizontalSlider = () => {
 
   return (
     <Swiper {...horizontalParams}>
-      <div>Project 1</div>
-      <div>Project 2</div>
+      <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
+      <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
     </Swiper>
     )
 };
