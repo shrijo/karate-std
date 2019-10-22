@@ -12,12 +12,14 @@ const HorizontalSlider = () => {
       slidesPerView: 'auto',
       centeredSlides: true,
       loop: true,
-      spaceBetween: 10,
+      spaceBetween: 20,
       speed: 150,
   }
 
   return (
     <Swiper {...horizontalParams}>
+      <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
+      <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
       <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
       <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
     </Swiper>

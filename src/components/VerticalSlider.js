@@ -1,6 +1,8 @@
 import React from 'react';
 import Swiper from 'react-id-swiper'
 import HorizontalSlider from './HorizontalSlider'
+import Hero from './Hero'
+
 
 
 const VerticalSlider = () => {
@@ -12,7 +14,7 @@ const VerticalSlider = () => {
   return (
     <Swiper {...verticalParams}>
 
-      <div><h1>Hero</h1></div>
+      <div><Hero /></div>
 
       <div><HorizontalSlider /></div>
 
