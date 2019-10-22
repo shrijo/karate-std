@@ -1,0 +1,14 @@
+.wrapper .slider-wrapper{
+  height: 200%;
+}
+
+.projects{
+  height: 100% !important;
+  background-color: pink;
+}
+
+.studio{
+  height: 100% !important;
+  background-color: black;
+  color: white;
+}
