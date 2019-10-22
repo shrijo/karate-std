@@ -7,10 +7,6 @@ const VerticalSlider = () => {
 
   const verticalParams = {
       direction: 'vertical',
-      pagination: {
-        el: '.swiper-pagination.swiper-pagination-v',
-        clickable: true
-    }
   }
 
   return (

@@ -13,10 +13,6 @@ const HorizontalSlider = () => {
       centeredSlides: true,
       loop: true,
       spaceBetween: 10,
-      pagination: {
-        el: '.swiper-pagination.swiper-pagination-h',
-        clickable: true
-    }
   }
 
   return (
