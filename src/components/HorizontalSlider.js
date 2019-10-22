@@ -1,6 +1,6 @@
 import React from 'react';
 import Div100vh from 'react-div-100vh'
-import Swiper from 'react-id-swiper';
+import Swiper from 'react-id-swiper'
 import HorizontalSliderStyles from './HorizontalSlider.module.css'
 
 
@@ -20,8 +20,12 @@ const HorizontalSlider = () => {
 
   return (
     <Swiper  {...horizontalParams}>
-      <div className={HorizontalSliderStyles.slide}>Slide 1</div>
-      <div className={HorizontalSliderStyles.slide}>Slide 2</div>
+      <div className={HorizontalSliderStyles.slide}>
+        <Div100vh />
+      </div>
+      <div className={HorizontalSliderStyles.slide}>
+        <Div100vh />
+      </div>
     </Swiper>
     )
 };

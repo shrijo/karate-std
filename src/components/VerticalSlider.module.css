@@ -1,14 +1,8 @@
-.wrapper .slider-wrapper{
-  height: 200%;
-}
-
-.projects{
-  height: 100% !important;
-  background-color: pink;
-}
-
-.studio{
-  height: 100% !important;
+.container{
   background-color: black;
-  color: white;
+}
+
+.slide{
+  height: 100%;
+
 }
