@@ -1,7 +1,15 @@
-.outerWrapper{
+.container{
   height: 100vh;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 .wrapper{
   transition: all 200ms linear;
+  scroll-snap-align: start;
+}
+
+.sliderWrapper{
+  height: 100vh;
+  scroll-snap-align: start;
 }
