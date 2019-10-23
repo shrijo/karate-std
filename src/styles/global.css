@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6, p, a{
   flex-grow: 1;
   box-sizing: border-box;
   padding: 10px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/crane-kick.gif")  
 }
 
 .projectTeaserTitle{
