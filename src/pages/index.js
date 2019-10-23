@@ -1,8 +1,18 @@
 import React from "react"
 import Div100vh from 'react-div-100vh'
 import VerticalSlider from "../components/VerticalSlider"
+import Hero from '../components/Hero'
+
+import IndexStyles from './Index.module.css'
 
 export default () =>
-<Div100vh>
+
+<div className={IndexStyles.container}>
+
+  <Div100vh>
+    <div><Hero /></div>
+  </Div100vh>
+
   <VerticalSlider />
-</Div100vh>
+
+</div>
