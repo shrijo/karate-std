@@ -1,6 +1,5 @@
 import React from 'react';
 import Swiper from 'react-id-swiper'
-import Div100vh from 'react-div-100vh'
 
 import ProjectTeaser from './ProjectTeaser'
 
@@ -19,14 +18,12 @@ const HorizontalSlider = () => {
   }
 
   return (
-    <Div100vh className={HorizontalSliderStyles.wrapper}>
       <Swiper {...horizontalParams}>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
       </Swiper>
-    </Div100vh>
   )
 };
 

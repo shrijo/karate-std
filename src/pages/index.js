@@ -9,7 +9,12 @@ export default () =>
 
 <div className={IndexStyles.container}>
 
-  <Hero />
-  <HorizontalSlider />
+  <Div100vh className={IndexStyles.wrapper}>
+    <Hero />
+  </Div100vh>
 
+  <Div100vh className={IndexStyles.wrapper}>
+    <HorizontalSlider />
+  </Div100vh>
+  
 </div>
