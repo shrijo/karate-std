@@ -13,9 +13,7 @@ export default () =>
       <Hero />
     </Div100vh>
   </div>
-  <div className={IndexStyles.outerWrapper}>
     <Div100vh className={IndexStyles.wrapper}>
       <HorizontalSlider />
     </Div100vh>
-  </div>
 </div>
