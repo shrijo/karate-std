@@ -13,7 +13,7 @@ const HorizontalSlider = () => {
       centeredSlides: true,
       loop: true,
       spaceBetween: 10,
-      speed: 150,
+      speed: 250,
   }
 
   return (

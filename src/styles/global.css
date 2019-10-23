@@ -9,16 +9,13 @@ h1, h2, h3, h4, h5, h6, p, a{
   font-weight: normal;
 }
 
+.swiper-wrapper{
+  transition-timing-function: ease-in !important;
+}
+
 .swiper-container{
   height: 100vh;
 }
-
-
-
-
-
-
-
 
 .projectTeaserContainer{
   height: 100%;
@@ -40,7 +37,6 @@ h1, h2, h3, h4, h5, h6, p, a{
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  padding-left: 50px;
   opacity: 0;
   transition: all 500ms ease 100ms;
 }
@@ -50,17 +46,14 @@ h1, h2, h3, h4, h5, h6, p, a{
   line-height: 20px;
   color: lightgrey;
   margin: 0;
-  padding-left: 50px;
   opacity: 0;
   transition: all 500ms ease 190ms;
 }
 
 .swiper-slide-active > .projectTeaserContainer > .projectTeaserImage > .projectTeaserTitle{
-  padding-left: 0px;
   opacity: 1;
 }
 
 .swiper-slide-active > .projectTeaserContainer > .projectTeaserImage > .projectTeaserSubTitle{
-  padding-left: 0px;
   opacity: 1;
 }
