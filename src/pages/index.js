@@ -8,12 +8,10 @@ import IndexStyles from './Index.module.css'
 export default () =>
 
 <div className={IndexStyles.container}>
-  <div className={IndexStyles.outerWrapper}>
     <Div100vh className={IndexStyles.wrapper}>
       <Hero />
     </Div100vh>
-  </div>
-    <div className={IndexStyles.sliderWrapper}>
+    <Div100vh className={IndexStyles.wrapper}>
       <HorizontalSlider />
-    </div>
+    </Div100vh>
 </div>
