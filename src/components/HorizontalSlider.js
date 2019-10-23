@@ -12,7 +12,7 @@ const HorizontalSlider = () => {
       slidesPerView: 'auto',
       centeredSlides: true,
       loop: true,
-      spaceBetween: 20,
+      spaceBetween: 10,
       speed: 150,
   }
 
