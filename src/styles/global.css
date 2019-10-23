@@ -11,10 +11,11 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 .swiper-wrapper{
   transition-timing-function: ease-in !important;
+  align-items: stretch;
 }
 
 .swiper-container{
-  height: 100vh;
+  height: 100%;
 }
 
 .projectTeaserContainer{
