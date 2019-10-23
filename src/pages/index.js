@@ -1,6 +1,6 @@
 import React from "react"
 import Div100vh from 'react-div-100vh'
-import HorizontalSlider from "../components/VerticalSlider"
+import HorizontalSlider from "../components/HorizontalSlider"
 import Hero from '../components/Hero'
 
 import IndexStyles from './Index.module.css'
