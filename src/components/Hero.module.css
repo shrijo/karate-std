@@ -10,6 +10,7 @@
   box-sizing: border-box;
   justify-content: center;
   padding: 0 calc(5vw + 10px);
+  transition: all 300ms ease;
 }
 
 .logo{
