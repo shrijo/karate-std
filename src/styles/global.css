@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6, p, a{
   line-height: 20px;
   margin: 0;
   opacity: 0;
-  transition: all 500ms ease 100ms;
+  transition: all 500ms ease 200ms;
 }
 
 .projectTeaserSubTitle{
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, p, a{
   color: lightgrey;
   margin: 0;
   opacity: 0;
-  transition: all 500ms ease 190ms;
+  transition: all 500ms ease 300ms;
 }
 
 .swiper-slide-active > .projectTeaserContainer > .projectTeaserImage > .projectTeaserTitle{
