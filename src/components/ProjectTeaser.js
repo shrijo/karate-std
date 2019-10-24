@@ -3,11 +3,11 @@ import React from 'react';
 //import ProjectTeaserStyles from './ProjectTeaser.module.css'
 
 
-const ProjectTeaser = () => (
+const ProjectTeaser = (props) => (
   <div className="projectTeaserContainer">
-    <div className="projectTeaserImage">
-      <h5 className="projectTeaserTitle">Customer</h5>
-      <h6 className="projectTeaserSubTitle">Catchy catchphrase</h6>
+    <div className="projectTeaserImage" style={{backgroundImage: props.teaserImage}}>
+      <h5 className="projectTeaserTitle">{props.teaserTitle}</h5>
+      <h6 className="projectTeaserSubTitle">{props.teaserSubTitle}</h6>
     </div>
   </div>
 )

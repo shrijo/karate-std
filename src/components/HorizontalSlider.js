@@ -19,7 +19,13 @@ const HorizontalSlider = () => {
 
   return (
       <Swiper {...horizontalParams}>
-        <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
+        <div className={HorizontalSliderStyles.slide}>
+          <ProjectTeaser
+          teaserTitle="Danielsan"
+          teaserSubTitle="Auftragen, polieren, auftragen, pollieren"
+          teaserImage="'url(../images/crane-kick.gif)'"
+          />
+        </div>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
         <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
