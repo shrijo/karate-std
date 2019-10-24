@@ -27,7 +27,7 @@ const HorizontalSlider = () => {
           teaserImage="'url(../images/crane-kick.gif)'"
           />
         </div>
-        
+
         <div className={HorizontalSliderStyles.slide}>
           <ProjectTeaser
           teaserTitle="Mr. Miyagi"
@@ -39,7 +39,7 @@ const HorizontalSlider = () => {
         <div className={HorizontalSliderStyles.slide}>
           <ProjectTeaser
           teaserTitle="Cobra Kai"
-          teaserSubTitle="Auftragen, polieren, auftragen, pollieren"
+          teaserSubTitle="Wenn du fühlen das Leben geraten aus Fokus, immer zurückkehren zu Grundlage von Leben. Atmen. Kein Atem, kein Leben."
           teaserImage="'url(../images/crane-kick.gif)'"
           />
         </div>
