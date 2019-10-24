@@ -19,16 +19,39 @@ const HorizontalSlider = () => {
 
   return (
       <Swiper {...horizontalParams}>
+
         <div className={HorizontalSliderStyles.slide}>
           <ProjectTeaser
           teaserTitle="Danielsan"
+          teaserSubTitle="Um Honig zu machen junge Bienen brauchen junge Blumen, nicht alte Pflaume."
+          teaserImage="'url(../images/crane-kick.gif)'"
+          />
+        </div>
+        
+        <div className={HorizontalSliderStyles.slide}>
+          <ProjectTeaser
+          teaserTitle="Mr. Miyagi"
+          teaserSubTitle="Verlieren gegen Feind okay, aber niemals verlieren gegen Angst."
+          teaserImage="'url(../images/crane-kick.gif)'"
+          />
+        </div>
+
+        <div className={HorizontalSliderStyles.slide}>
+          <ProjectTeaser
+          teaserTitle="Cobra Kai"
           teaserSubTitle="Auftragen, polieren, auftragen, pollieren"
           teaserImage="'url(../images/crane-kick.gif)'"
           />
         </div>
-        <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
-        <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
-        <div className={HorizontalSliderStyles.slide}><ProjectTeaser /></div>
+
+        <div className={HorizontalSliderStyles.slide}>
+          <ProjectTeaser
+          teaserTitle="LaRusso"
+          teaserSubTitle="Lernen zu stehen, dann lernen zu fliegen."
+          teaserImage="'url(../images/crane-kick.gif)'"
+          />
+        </div>
+
       </Swiper>
   )
 };
