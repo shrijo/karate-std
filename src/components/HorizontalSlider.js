@@ -39,7 +39,7 @@ const HorizontalSlider = () => {
         <div className={HorizontalSliderStyles.slide}>
           <ProjectTeaser
           teaserTitle="Cobra Kai"
-          teaserSubTitle="Wenn du fühlen das Leben geraten aus Fokus, immer zurückkehren zu Grundlage von Leben. Atmen. Kein Atem, kein Leben."
+          teaserSubTitle="Wer Fliege fangen mit Stäbchen, der vollbringen alles."
           teaserImage="'url(../images/crane-kick.gif)'"
           />
         </div>
